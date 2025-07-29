@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+body{
+  min-height: 100vh;
+  @apply w-screen flex justify-center items-center;
+}
+
+form{
+  @apply px-5 py-5 w-90 shadow-xl/30 rounded bg-gray-200 
+}
+
+.input{
+  @apply mb-5 shadow-purple-400 border border-gray-500 focus:shadow-xl outline-none px-3 py-2 rounded w-full
+}
+
+.btn{
+  @apply px-5 py-2 my-2 rounded bg-blue-500 text-white font-semibold cursor-pointer
+}
